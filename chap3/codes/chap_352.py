@@ -8,7 +8,7 @@ from sklearn.cluster import AgglomerativeClustering
 
 
 ## 3.5.2 凝集型クラスタリング
-X, y = make_blobs(random_state=10)
+X, y = make_blobs(random_state=100)
 agg = AgglomerativeClustering(n_clusters=3)
 assignment = agg.fit_predict(X)
 

@@ -1,7 +1,9 @@
 ### 3.3 前処理とスケール変換
 ## 3.3.2 データ変換の適用
+from codes import chap_332
 
 ## 3.3.3 訓練データとテストデータを同じように変換する
+from codes import chap_333
 
 ## 3.3.4 教師あり学習における前処理の効果
 from codes import chap_334
@@ -10,6 +12,7 @@ from codes import chap_334
 from codes import chap_341
 
 ## 3.4.2 非負値行列因子分解(NMF)
+from codes import chap_342
 
 ## 3.4.3 t-SNEを用いた多様体学習
 
@@ -25,3 +28,4 @@ from codes import chap_352
 from codes import chap_353
 
 ## 3.5.4 クラスタリングアルゴリズムの比較と評価
+from codes import chap_354

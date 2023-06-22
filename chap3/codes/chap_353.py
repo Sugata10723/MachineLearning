@@ -10,7 +10,7 @@ from sklearn.cluster import DBSCAN
 ## 3.5.3 DBCSAN
 
 # データの作成
-X, y = make_moons(n_samples=200, noise=0.05, random_state=0)
+X, y = make_moons(n_samples=200, noise=0.05, random_state=100)
 
 # データを平均0分散1にスケール変換
 scaler = StandardScaler()
@@ -18,7 +18,7 @@ scaler.fit(X)
 X_scaled = scaler.transform(X)
 
 # DBSCANを実行
-dbscan = DBSCAN()
+dbscan = DBSCAN(eps=0.2)
 clusters = dbscan.fit_predict(X_scaled)
 
 # 結果をプロット

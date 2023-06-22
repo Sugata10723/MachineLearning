@@ -32,5 +32,6 @@ plt.plot(x_train_scaled)
 x_test_scaled = scaler.transform(x_test)
 
 # 変換したテストデータをプロット
-plt.plot(x_test_scaled)
+print(x_test_scaled[:,0]) # 第一成分だけで表示
+plt.plot(x_test_scaled) 
 plt.show() # この時、MinMaxScalerが常に訓練データとテストデータに全く同じ変換を施すので、テストデータの最大最小が0と1にならない
