@@ -4,7 +4,7 @@ from ydata_profiling import ProfileReport
 from sklearn.decomposition import FactorAnalysis 
 
 # データの読み込み
-df_scores = pd.read_csv('/Users/ham/Desktop/MachineLearning/chap3/data/12_subject_scores.csv')
+df_scores = pd.read_csv('/Users/ham/Desktop/MachineLearning/unsupervised-learning/data/12_subject_scores.csv')
 print(df_scores.head())
 print(df_scores.describe())
 

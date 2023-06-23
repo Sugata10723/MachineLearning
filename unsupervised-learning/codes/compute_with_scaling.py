@@ -10,7 +10,6 @@ scaler = MinMaxScaler()
 x_train, x_test, y_train, y_test = train_test_split(cancer.data, cancer.target, random_state=0)
 
 # 前処理なし
-
 svm = SVC(C=100)
 svm.fit(x_train, y_train)
 print("Test set sccuracy: {:.2f}".format(svm.score(x_test, y_test))) # 何故かめちゃくちゃ精度がいい
