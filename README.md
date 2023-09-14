@@ -4,9 +4,13 @@
 
 ## 目次
 
--1章
--2章
--3章　unsupervised-
--4章　feature-engineering
+- 1章 はじめに
+- 2章　教師あり学習
+- 3章　　教師なし学習　unsupervised-learning
+- 4章　データの表現と特徴量エンジニアリングfeature-engineering
+- 5章 モデルの評価と改良
+- 6章　アルゴリズムチェーンとパイプライン
+- 7章　テキストデータの処理
+- 8章　終わりに
 
 
