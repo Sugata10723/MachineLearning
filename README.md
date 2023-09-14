@@ -6,7 +6,7 @@
 
 - 1章 はじめに
 - 2章 教師あり学習
-- 3章　 教師なし学習　(unsupervised-learning)
+- 3章 教師なし学習　(unsupervised-learning)
 - 4章 データの表現と特徴量エンジニアリング(feature-engineering)
 - 5章 モデルの評価と改良
 - 6章 アルゴリズムチェーンとパイプライン
